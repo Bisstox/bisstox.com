@@ -1,0 +1,66 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Features from '~/components/widgets/Features.astro'
+const metadata = {
+  title: 'Contacto',
+};
+---
+
+<Layout metadata={metadata}>
+
+    <Features
+    id="features"
+    title="Transformando vidas y negocios en la era digital"
+    subtitle=" En un mundo impulsado por la tecnología y la adaptación constante, nos dirigimos a emprendedores y líderes visionarios dispuestos a invertir en su propia transformación. Nuestra misión es empoderar a las pymes, brindando soluciones personalizadas para competir en igualdad de condiciones con las grandes empresas."
+    />
+
+    <FAQs
+    title="Manifiesto de Bisstox"
+    items={[
+      {
+        title: 'En Bisstox, nos dedicamos a transformar vidas y negocios.',
+        description:
+          'Transformamos vidas y negocios a través de la innovación y nuestra filosofía arraigada en la visión, sostenibilidad y liderazgo. Creemos en el poder de la tecnología, del aprendizaje y la mejora continua para impulsar el éxito en cualquier empresa, en cualquier parte del mundo.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: 'Nuestro enfoque se centra en ayudar a las personas y empresas a ser los mejores en lo que hacen.',
+        description: ` Reconocemos que vivimos en una era digital que requiere adaptación y aprovechamiento de las nuevas tecnologías. Nos dirigimos a los emprendedores y líderes visionarios que reconocen esta necesidad y están dispuestos a invertir en su transformación.`,
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: 'Nuestras ambiciones son audaces.',
+        description:
+          'Buscamos ser líderes en la industria, brindando soluciones personalizadas de transformación digital que permitan a las empresas pequeñas y medianas competir en igualdad de condiciones con las grandes empresas. Queremos empoderar a las pymes para que optimicen sus resultados y alcancen el éxito sostenible en el entorno digital actual.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: 'Trabajamos de la mano con nuestros clientes, como socios estratégicos.',
+        description: `Para entender sus necesidades únicas y diseñar soluciones innovadoras que impulsen su crecimiento. Nuestro enfoque es colaborativo, creativo y orientado a resultados tangibles. Nos comprometemos a ofrecer soluciones éticas, transparentes y seguras, respetando siempre los estándares y regulaciones aplicables.`,
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: 'En Bisstox, valoramos la competitividad, la innovación, la integridad, la sostenibilidad y la creatividad.',
+        description: ` Estos valores se reflejan en todo lo que hacemos. Buscamos constantemente mejorar y estar a la vanguardia del mercado, ofreciendo servicios de consultoría, capacitación personalizada y soluciones de transformación digital de procesos de negocio.`,
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: 'Nos apasiona el potencial transformador de la tecnología y creemos en su capacidad para cambiar vidas y empresas.',
+        description: ` Nos esforzamos por marcar la diferencia, promoviendo la igualdad de oportunidades y ayudando a las empresas a alcanzar el éxito a largo plazo.`,
+        icon: 'tabler:chevrons-right',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FAQs>
+
+  <Features
+  id="features"
+  title="Si compartes nuestra visión y valores"
+  subtitle="<p>Te invitamos a unirte a nuestro viaje hacia el éxito y la prosperidad.</p> <p>Juntos, podemos transformar vidas y negocios, impulsando el crecimiento y la rentabilidad en la era digital.</p> <p><a class='btn-secondary ml-2 mt-5 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto' href='/contacto'>Contáctanos</a></p>"
+  />
+
+</Layout>

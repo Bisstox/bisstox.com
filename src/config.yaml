@@ -1,18 +1,18 @@
 site:
   name: Bisstox
-  site: 'https://astrowind.vercel.app'
+  site: 'https://bisstox.com'
   base: '/'
   trailingSlash: false
-  logo: '/src/assets/images/logo.png'
+  logo: '/~/assets/images/logo.png'
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  #googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
 # Default SEO metadata
 metadata:
   title:
     default: Bisstox
     template: '%s — Bisstox'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Tecnología que te ayuda a ser mejor en lo que haces."
   robots:
     index: true
     follow: true
